@@ -1,0 +1,98 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+#botoes {
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#text-input {
+  display: block;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+#meme-image-container {
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+  flex-direction: row;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 400px;
+}
+
+#meme-text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  width: 400px;
+  z-index: 2;
+}
+
+#memes-prontos {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+#meme-image {
+  height: 400px;
+  position: absolute;
+  width: 400px;
+  z-index: 1;
+}
+
+#meme-insert {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.meme-image {
+  border: 1px solid black;
+  display: flex;
+  height: 150px;
+  margin-top: 120px;
+  object-fit: fill;
+  width: 180px;
+}
+
+#fire {
+  background-color: red;
+  font-weight: 700;
+  padding: 5px;
+}
+
+#water {
+  background-color: blue;
+  font-weight: 700;
+  padding: 5px;
+}
+
+#earth {
+  background-color: green;
+  font-weight: 700;
+  padding: 5px;
+}
+
+label {
+  align-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+html {
+  background-image: url('https://64.media.tumblr.com/53c63074fdce0535fa890e4476affd1f/tumblr_nxy7r3quQ71unv3kbo1_1280.jpg');
+  background-size: cover;
+}
